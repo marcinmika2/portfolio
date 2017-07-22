@@ -9,6 +9,7 @@ p{
 	padding: 10px;
 }
 
+
 form {
 	width: 80%;
 	margin: 40px;
@@ -20,8 +21,8 @@ form {
 }
 
 input {
-	width: 80%;
-	height: 40px;
+	width: 70%;
+	height: 80px;
 	text-align: center;
 	background-color: dodgerblue;
 	color: black;
@@ -46,7 +47,7 @@ button {
 }
 
 button:hover {
-	background-color: blueviolet;
+	background-color: dodgerblue;
 }
 
 
@@ -70,9 +71,11 @@ button:hover {
 }
 
 span{
+	
 	display: block;
 	line-height: 55px;
 	font-weight: 900;
+	font-size: 50px;
 }
 
 .text-bold{
@@ -87,6 +90,7 @@ span{
 	.item{
 		height: 510px;
 }
+
 	
 }
 
