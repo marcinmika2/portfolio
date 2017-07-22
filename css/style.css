@@ -76,16 +76,11 @@ span{
 }
 
 .text-bold{
-	font-weight: 700;
+	font-weight: 900;
 }
 
 .item{
 	height: 350px;
-}
-
-
-.main-section{
-	text-align: center;
 }
 
 @media only screen and (min-width: 500px) {
@@ -95,22 +90,41 @@ span{
 	
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 930px) {
+	
+	#firstLine{
+		width: 500px;
+		float: left
+	}
+	
+	#myCarousel{
+		width: 400px;
+		float: left;
+	}
 	
 	img{
-		height: 100;
+		height: 100px;
+		width: 400px;
 	}
 	
 	.carousel-inner{
 		text-align: center;
-		height: 700px;
+		height: 600px;
+		width: 400px;
+	}
+	
+	ol{
+		display: none;
+	}
+	
+	.carousel-control{
+		display: none;
 	}
 	
 	h1{
-		display: none;
+		width: 100%;
 	}
 
-	}
 	
 
 
