@@ -1,10 +1,10 @@
- 'use strict';
+
+$(document).ready(function(){
+    'use strict';
 
 $('.opis-doswiadczenie').hide()
 	
 	$('.css').click(function(){
-   
-			var clicks = $(this).data('clicks');
 			$('.opis-doswiadczenie').slideUp()
 			$('.cssText').slideDown();
 	});
